@@ -62,7 +62,7 @@ const Login = () => {
 
   return (
     <>
-      <div className="w-full h-full flex items-center justify-center">
+      <div className="w-full h-full flex items-center justify-center ">
         <div className="w-full max-w-sm border rounded-lg bg-white shadow-lg p-7">
           <form onSubmit={handleLogin}>
             <h4 className="text-2xl font-semibold mb-7 text-center text-black">
@@ -94,10 +94,7 @@ const Login = () => {
 
           <p className="text-sm text-customBlack text-center mt-4">
             Not registered yet?{" "}
-            <Link
-              to="/signup"
-              className="font-medium text-customBlue underline"
-            >
+            <Link to="/" className="font-medium text-customBlue underline">
               Create Account
             </Link>
           </p>
