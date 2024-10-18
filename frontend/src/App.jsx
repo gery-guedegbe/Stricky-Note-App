@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div
       id="app"
-      className="w-full md:flex md:items-center justify-center p-4 md:p-0"
+      className="w-full flex items-center justify-center p-4 md:p-0"
     >
       <NotesProvider>
         <AuthProvider>
