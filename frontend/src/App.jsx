@@ -7,10 +7,7 @@ import AuthProvider from "./context/AuthContext";
 
 const App = () => {
   return (
-    <div
-      id="app"
-      className="w-full flex items-center justify-center p-4 md:p-0 "
-    >
+    <div id="app">
       <NotesProvider>
         <AuthProvider>
           <Router>
