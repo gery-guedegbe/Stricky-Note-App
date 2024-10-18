@@ -11,7 +11,11 @@ connectDB();
 
 // Middlewares
 app.use(express.json());
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://stricky-note-app.vercel.app",
+  })
+);
 
 // Routes
 app.use("/api/auth", require("./routes/authRoutes"));
