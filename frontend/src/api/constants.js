@@ -1,1 +1,1 @@
-export const BASE_URL = "https://stricky-note-app.onrender.com";
+export const BASE_URL = "https://stricky-note-app.onrender.com/api";
