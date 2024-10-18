@@ -39,7 +39,7 @@ La **Sticky Note App** est une application web interactive permettant aux utilis
 1. Clonez ce dépôt :
 
 ```bash
-   git clone https://github.com/votre-utilisateur/sticky-note-app.git
+   git clone https://github.com/gery-guedegbe/Stricky-Note-App.git
 ```
 
 2. Accédez au répertoire backend :
